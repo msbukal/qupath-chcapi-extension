@@ -18,7 +18,7 @@
     </repository>
     <repository>
       <id>qupath-local-repo</id>
-      <url>file://${basedir}/../maven/repo</url>
+      <url>file://${basedir}/</url>
     </repository>
   </repositories>
 
@@ -27,6 +27,11 @@
       <groupId>qupath</groupId>
       <artifactId>qupath-gui-fx</artifactId>
       <version>0.3.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.openslide</groupId>
+      <artifactId>openslide</artifactId>
+      <version>3.4.1_2</version>
     </dependency>
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
