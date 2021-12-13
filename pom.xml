@@ -24,11 +24,6 @@
 
   <dependencies>
     <dependency>
-      <groupId>qupath</groupId>
-      <artifactId>qupath-gui-fx</artifactId>
-      <version>0.2.0-m10</version>
-    </dependency>
-    <dependency>
       <groupId>org.apache.httpcomponents</groupId>
       <artifactId>httpclient</artifactId>
       <version>4.5.8</version>
@@ -92,11 +87,6 @@
       <groupId>org.apache.logging.log4j</groupId>
       <artifactId>log4j-api</artifactId>
       <version>2.15.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.openslide</groupId>
-      <artifactId>openslide</artifactId>
-      <version>3.4.1_2</version>
     </dependency>
     <dependency>
       <groupId>org.openjfx</groupId>
