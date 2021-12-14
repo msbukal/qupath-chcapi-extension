@@ -31,7 +31,7 @@
       <groupId>io.github.qupath</groupId>
       <artifactId>qupath-gui-fx</artifactId>
       <version>0.3.0</version>
-<!--      <type>module</type>-->
+      <type>module</type>
     </dependency>
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
