@@ -18,7 +18,7 @@
 <!--    </repository>-->
     <repository>
       <id>maven-scijava</id>
-      <url>https://maven.scijava.org/content/repositories/releases/io/</url>
+      <url>https://maven.scijava.org/content/repositories/releases/io/github/qupath/</url>
     </repository>
     <repository>
       <id>org.dcm4che</id>
