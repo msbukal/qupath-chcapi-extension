@@ -17,8 +17,8 @@
 <!--      <url>file://${basedir}/../maven/repo</url>-->
 <!--    </repository>-->
     <repository>
-      <id>maven-scijava</id>
-      <url>https://maven.scijava.org/content/repositories/releases/io/github/qupath/</url>
+      <id>scijava.public</id>
+      <url>https://maven.scijava.org/content/groups/public</url>
     </repository>
     <repository>
       <id>org.dcm4che</id>
