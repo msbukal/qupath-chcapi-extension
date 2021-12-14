@@ -16,17 +16,13 @@
 <!--      <id>qupath-local-repo</id>-->
 <!--      <url>file://${basedir}/../maven/repo</url>-->
 <!--    </repository>-->
-<!--    <repository>-->
-<!--      <id>maven-central</id>-->
-<!--      <url>http://repo1.maven.org/maven2</url>-->
-<!--    </repository>-->
     <repository>
       <id>maven-scijava</id>
       <url>https://maven.scijava.org/content/repositories/releases/io/</url>
     </repository>
     <repository>
       <id>org.dcm4che</id>
-      <url>http://www.dcm4che.org/maven2/</url>
+      <url>https://www.dcm4che.org/maven2/</url>
     </repository>
   </repositories>
 
@@ -35,7 +31,7 @@
       <groupId>io.github.qupath</groupId>
       <artifactId>qupath-gui-fx</artifactId>
       <version>0.3.0</version>
-      <type>module</type>
+<!--      <type>module</type>-->
     </dependency>
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
