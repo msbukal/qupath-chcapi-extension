@@ -13,7 +13,7 @@ steps:
   args:
   - 'sed'
   - '-i'
-  - '1a\apply plugin: "maven"'
+  - '179a\apply plugin: "maven"'
   - '/workspace/qupath/build.gradle'
 - name: 'gradle:6.9.1-jdk11'
   volumes:
