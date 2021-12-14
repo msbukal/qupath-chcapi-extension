@@ -33,9 +33,9 @@ steps:
 #  - '/workspace/qupath/maven/repo/org'
 #  - '/root/.m2/repository'
 - name: 'maven:3.6.1-jdk-11'
-  volumes:
-  - name: 'vol1'
-    path: '/root/.m2'
+#  volumes:
+#  - name: 'vol1'
+#    path: '/root/.m2'
   args:
   - 'mvn'
   - 'clean'
