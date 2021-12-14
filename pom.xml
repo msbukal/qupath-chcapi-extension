@@ -14,7 +14,7 @@
   <repositories>
     <repository>
       <id>qupath-local-repo</id>
-      <url>file://${basedir}/../qupath/maven/repo</url>
+      <url>file://${basedir}/qupath/maven/repo</url>
     </repository>
     <repository>
       <id>scijava.public</id>
