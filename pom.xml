@@ -12,10 +12,10 @@
   <version>2.0.6</version>
 
   <repositories>
-<!--    <repository>-->
-<!--      <id>qupath-local-repo</id>-->
-<!--      <url>file://${basedir}/../maven/repo</url>-->
-<!--    </repository>-->
+    <repository>
+      <id>qupath-local-repo</id>
+      <url>file://${basedir}/../maven/repo</url>
+    </repository>
     <repository>
       <id>scijava.public</id>
       <url>https://maven.scijava.org/content/groups/public</url>
@@ -31,7 +31,7 @@
       <groupId>io.github.qupath</groupId>
       <artifactId>qupath-gui-fx</artifactId>
       <version>0.3.0</version>
-      <type>module</type>
+<!--      <type>module</type>-->
     </dependency>
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
@@ -98,11 +98,11 @@
       <artifactId>log4j-api</artifactId>
       <version>2.15.0</version>
     </dependency>
-<!--    <dependency>-->
-<!--      <groupId>org.openslide</groupId>-->
-<!--      <artifactId>openslide</artifactId>-->
-<!--      <version>3.4.1_2</version>-->
-<!--    </dependency>-->
+    <dependency>
+      <groupId>org.openslide</groupId>
+      <artifactId>openslide</artifactId>
+      <version>3.4.1_2</version>
+    </dependency>
     <dependency>
       <groupId>org.openjfx</groupId>
       <artifactId>javafx-controls</artifactId>
